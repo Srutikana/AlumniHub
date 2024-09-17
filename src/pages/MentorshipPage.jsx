@@ -108,8 +108,10 @@ const Mentorship = () => {
   };
 
   const handleChat = (name) => {
-    navigate(`/chat/${name}`);
+    navigate(`/dashboard/chat/${name}`);
   };
+  
+  
 
   const handleVideoCall = (name) => {
     // Implement video call logic here
